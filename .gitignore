@@ -50,3 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+SRGP.xcodeproj/xcuserdata
+SRGP.xcodeproj/project.xcworkspace/xcuserdata

@@ -1,19 +1,18 @@
-#ifndef SRGP_H_INCLUDED_ALREADY
+//
+//  SRGP.h
+//  SRGP
+//
+//  Created by Michael Rockhold on 4/30/22.
+//
 
-#define SRGP_H_INCLUDED_ALREADY
+#import <Foundation/Foundation.h>
 
-#define srgp__point		point
-#define srgp__rectangle		rectangle
-#define attribute_group		attributeGroup
-#define srgp__attribute_group	attributeGroup
-#define locator_measure	        locatorMeasure
-#define srgp__locator_measure	locatorMeasure
-#define deluxe_locator_measure	        deluxeLocatorMeasure
-#define srgp__deluxe_locator_measure	deluxeLocatorMeasure
-#define deluxe_keyboard_measure	        deluxeKeyboardMeasure
-#define srgp__deluxe_keyboard_measure	deluxeKeyboardMeasure
+//! Project version number for SRGP.
+FOUNDATION_EXPORT double SRGPVersionNumber;
 
-#include "srgp_sphigs.h"
-#include "srgppublic.h"
+//! Project version string for SRGP.
+FOUNDATION_EXPORT const unsigned char SRGPVersionString[];
 
-#endif
+// In this header, you should import all the public headers of your framework using statements like #import <SRGP/PublicHeader.h>
+
+
